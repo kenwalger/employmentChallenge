@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Activity Titles -->
+
+    <string name="app_name">TrelloChallenge</string>
+    <string name="title_activity_splash">Trello Challenge</string>
+    <string name="title_activity_solution">Solution</string>
+    <string name="title_activity_contact">Contact Me</string>
+    
+    
+    <string name="action_settings">Settings</string>
+    <string name="main_title_text">Trello Employment Challenge</string>
+    <string name="challenge_description_text">Find the 8 letter string of characters that contains only letters from:</string>
+    <string name="contains_letters">acdegilmnoprstuw</string>
+    <string name="challenge_description_cont">such that the</string>
+    <string name="function_text">hash(the_string)</string>
+    <string name="is">is</string>
+    <string name="hash_string">25180466553932</string>
+   
+    
+    <string name="app_splash_title">Employment Challenge</string>
+
+    <string name="app_author">Ken W. Alger</string>
+    <string name="app_author_title">This application created by:</string>
+    
+    <!-- Buttons -->
+
+    <string name="contact_button">Contact Information</string>
+    <string name="see_answer">See Answer</string>
+    <string name="auth_email">kenalger@comcast.net</string>
+    <string name="auth_phone">(503) 551-3468</string>
+    <string name="auth_web_site">www.kenwalger.com</string>
+    <string name="email_icon_label">Email Icon</string>
+    <string name="phone_icon_label">Phone Icon</string>
+    <string name="img_web_label">Web Icon</string>
+    <string name="pdf_resume_button">Resume in PDF</string>
+
+
+</resources>
