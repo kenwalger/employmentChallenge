@@ -109,7 +109,7 @@
         android:layout_marginRight="30dp"
         android:background="#ff00A4FF"
         android:textColor="@android:color/white"
-        android:textSize="@dimen/button_text_size"
+        android:textSize="16sp"
         android:textStyle="bold"/>
 
 </RelativeLayout>

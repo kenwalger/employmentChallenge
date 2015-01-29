@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Activity Titles -->
+
+    <string name="app_name">Trello Desafío Empleo</string>
+    <string name="title_activity_splash">Trello Desafío</string>
+    <string name="title_activity_solution">Solución</string>
+    <string name="title_activity_contact">Póngase en contacto conmigo</string>
+
+
+    <string name="action_settings">Ajustes</string>
+    <string name="main_title_text">Trello Desafío Empleo</string>
+    <string name="challenge_description_text">Encuentra la cadena de 8 letras de caracteres que contiene sólo letras de:</string>
+    <string name="contains_letters">acdegilmnoprstuw</string>
+    <string name="challenge_description_cont">de tal manera que la</string>
+    <string name="function_text">almohadilla ( the_string )</string>
+    <string name="is">es</string>
+    <string name="hash_string">25180466553932</string>
+    <string name="creative_commons_attribution">El robot Android se reproduce o modificado de trabajo creado y compartido por Google y usado según los términos descritos en la Licencia 3.0 de Creative Commons.</string>
+
+    <string name="app_splash_title">Desafío Empleo</string>
+
+    <string name="app_author">Ken W. Alger</string>
+    <string name="app_author_title">Esta aplicación creada por:</string>
+
+    <!-- Buttons -->
+
+    <string name="contact_button">Información Del Contacto</string>
+    <string name="see_answer">Ver Respuesta</string>
+    <string name="pdf_resume_button">Resume en PDF - a través de Google Docs</string>
+
+    <!-- Contact Info -->
+    <string name="auth_email">kenalger@comcast.net</string>
+    <string name="auth_phone">(503) 551-3468</string>
+    <string name="auth_web_site">www.kenwalger.com</string>
+    <string name="email_icon_label">Icono de correo electrónico</string>
+    <string name="phone_icon_label">Icono de teléfono</string>
+    <string name="img_web_label">Icono web</string>
+
+
+    <!-- Error Messages -->
+
+    <string name="toast_no_file_found">No se encontró el archivo</string>
+    <string name="no_application_error_message">No aplicación disponible para ver en PDF</string>
+    <string name="to_hash_error">Por favor, no introducir datos no numéricos</string>
+
+
+
+</resources>

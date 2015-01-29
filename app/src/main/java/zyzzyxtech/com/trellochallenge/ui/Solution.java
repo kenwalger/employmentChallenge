@@ -6,6 +6,7 @@ import android.support.v7.app.ActionBarActivity;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -29,13 +30,16 @@ public class Solution extends ActionBarActivity {
     
     @InjectView(R.id.hash_answer) TextView mHashAnswer;
     @InjectView(R.id.contact_button) Button mContactButton;
+    @InjectView(R.id.background_android) ImageView mBackgroundAndroid;
     
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_solution);
         ButterKnife.inject(this);
-
+        
+        Log.i(TAG, getString(R.string.creative_commons_attribution));
+        
         Intent intent = getIntent();
         mHashedString = intent.getStringExtra("hashedString");
         if ( mHashedString.isEmpty()) {
@@ -45,6 +49,9 @@ public class Solution extends ActionBarActivity {
                 mHashedLong = Long.valueOf(mHashedString, 10);
             } catch(InputMismatchException e) {
                 Toast.makeText(Solution.this, "Error converting string", Toast.LENGTH_LONG).show();
+                mHashedLong = 491602768L;
+            } catch(NumberFormatException e) {
+                Toast.makeText(Solution.this, "Invalid 'Long' number", Toast.LENGTH_LONG).show();
                 mHashedLong = 491602768L;
             }
             
@@ -66,6 +73,14 @@ public class Solution extends ActionBarActivity {
                 Intent intent = new Intent(Solution.this, ContactActivity.class);
                 startActivity(intent);
             }
+        });
+        
+        mBackgroundAndroid.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(Solution.this, getString(R.string.creative_commons_attribution), Toast.LENGTH_LONG).show();
+            }
+
         });
 
     }
