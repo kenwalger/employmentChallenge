@@ -49,5 +49,4 @@ public class SplashActivity extends ActionBarActivity {
         }
         super.onResume();
     }
-    
 }

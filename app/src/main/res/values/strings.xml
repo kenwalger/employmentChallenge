@@ -3,7 +3,7 @@
 
     <!-- Activity Titles -->
 
-    <string name="app_name">TrelloChallenge</string>
+    <string name="app_name">Trello Employment Challenge</string>
     <string name="title_activity_splash">Trello Challenge</string>
     <string name="title_activity_solution">Solution</string>
     <string name="title_activity_contact">Contact Me</string>
@@ -17,7 +17,7 @@
     <string name="function_text">hash(the_string)</string>
     <string name="is">is</string>
     <string name="hash_string">25180466553932</string>
-   
+    <string name="creative_commons_attribution">The Android robot is reproduced or modified from work created and shared by Google and used according to terms described in the Creative Commons 3.0 Attribution License.</string>
     
     <string name="app_splash_title">Employment Challenge</string>
 
@@ -28,13 +28,22 @@
 
     <string name="contact_button">Contact Information</string>
     <string name="see_answer">See Answer</string>
+    <string name="pdf_resume_button">Resume in PDF - via Google Docs</string>
+
+    <!-- Contact Info --> 
     <string name="auth_email">kenalger@comcast.net</string>
     <string name="auth_phone">(503) 551-3468</string>
     <string name="auth_web_site">www.kenwalger.com</string>
     <string name="email_icon_label">Email Icon</string>
     <string name="phone_icon_label">Phone Icon</string>
     <string name="img_web_label">Web Icon</string>
-    <string name="pdf_resume_button">Resume in PDF</string>
+    
+    
+    <!-- Error Messages -->
+    
+    <string name="toast_no_file_found">No file found</string>
+    <string name="no_application_error_message">No Application available to view PDF</string>
+    <string name="to_hash_error">Please don\'t enter non-numeric data</string>
 
 
 </resources>
