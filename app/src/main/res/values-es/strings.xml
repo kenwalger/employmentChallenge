@@ -3,14 +3,14 @@
 
     <!-- Activity Titles -->
 
-    <string name="app_name">Trello Desafío Empleo</string>
-    <string name="title_activity_splash">Trello Desafío</string>
+    <string name="app_name">Desafío Empleo</string>
+    <string name="title_activity_splash">Desafío</string>
     <string name="title_activity_solution">Solución</string>
     <string name="title_activity_contact">Póngase en contacto conmigo</string>
 
 
     <string name="action_settings">Ajustes</string>
-    <string name="main_title_text">Trello Desafío Empleo</string>
+    <string name="main_title_text">Desafío Empleo</string>
     <string name="challenge_description_text">Encuentra la cadena de 8 letras de caracteres que contiene sólo letras de:</string>
     <string name="contains_letters">acdegilmnoprstuw</string>
     <string name="challenge_description_cont">de tal manera que la</string>
