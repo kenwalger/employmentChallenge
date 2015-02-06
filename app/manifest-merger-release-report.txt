@@ -30,7 +30,7 @@ MERGED from com.andreabaccega:android-form-edittext:1.1.0:11:5
 		ADDED from AndroidManifest.xml:10:9
 	android:theme
 		ADDED from AndroidManifest.xml:12:9
-activity#zyzzyxtech.com.trellochallenge.ui.MainActivity
+activity#zyzzyxtech.com.employmentchallenge.ui.MainActivity
 ADDED from AndroidManifest.xml:13:9
 	android:screenOrientation
 		ADDED from AndroidManifest.xml:16:13
@@ -38,7 +38,7 @@ ADDED from AndroidManifest.xml:13:9
 		ADDED from AndroidManifest.xml:15:13
 	android:name
 		ADDED from AndroidManifest.xml:14:13
-activity#zyzzyxtech.com.trellochallenge.ui.SplashActivity
+activity#zyzzyxtech.com.employmentchallenge.ui.SplashActivity
 ADDED from AndroidManifest.xml:18:9
 	android:screenOrientation
 		ADDED from AndroidManifest.xml:21:13
@@ -56,7 +56,7 @@ category#android.intent.category.LAUNCHER
 ADDED from AndroidManifest.xml:25:17
 	android:name
 		ADDED from AndroidManifest.xml:25:27
-activity#zyzzyxtech.com.trellochallenge.ui.Solution
+activity#zyzzyxtech.com.employmentchallenge.ui.Solution
 ADDED from AndroidManifest.xml:28:9
 	android:screenOrientation
 		ADDED from AndroidManifest.xml:32:13
@@ -72,7 +72,7 @@ ADDED from AndroidManifest.xml:33:13
 		ADDED from AndroidManifest.xml:35:17
 	android:name
 		ADDED from AndroidManifest.xml:34:17
-activity#zyzzyxtech.com.trellochallenge.ui.ContactActivity
+activity#zyzzyxtech.com.employmentchallenge.ui.ContactActivity
 ADDED from AndroidManifest.xml:37:9
 	android:screenOrientation
 		ADDED from AndroidManifest.xml:41:13

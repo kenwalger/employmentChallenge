@@ -1,7 +1,9 @@
-# trelloChallenge
-Trello Employment Challenge - Android App
+# Employment Challenge
+Employment Challenge - Android App
 
-Employment at Trello.com is generally contingent on completing a challenge question.
+Employment at a certain online company that provides web and mobile
+applications which are "the free, flexible, and visual way to organize anything with anyone" 
+is generally contingent on completing a challenge question.
 
 For a recent Android Developer position the challenge was as follows:
 
