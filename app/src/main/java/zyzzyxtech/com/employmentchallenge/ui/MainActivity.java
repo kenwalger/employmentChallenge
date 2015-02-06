@@ -1,4 +1,4 @@
-package zyzzyxtech.com.trellochallenge.ui;
+package zyzzyxtech.com.employmentchallenge.ui;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -12,7 +12,7 @@ import com.andreabaccega.widget.FormEditText;
 
 import butterknife.ButterKnife;
 import butterknife.InjectView;
-import zyzzyxtech.com.trellochallenge.R;
+import zyzzyxtech.com.employmentchallenge.R;
 
 
 public class MainActivity extends ActionBarActivity {

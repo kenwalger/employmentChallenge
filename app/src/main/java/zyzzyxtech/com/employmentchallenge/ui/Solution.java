@@ -1,4 +1,4 @@
-package zyzzyxtech.com.trellochallenge.ui;
+package zyzzyxtech.com.employmentchallenge.ui;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -14,8 +14,8 @@ import java.util.InputMismatchException;
 
 import butterknife.ButterKnife;
 import butterknife.InjectView;
-import zyzzyxtech.com.trellochallenge.Challenge;
-import zyzzyxtech.com.trellochallenge.R;
+import zyzzyxtech.com.employmentchallenge.Challenge;
+import zyzzyxtech.com.employmentchallenge.R;
 
 
 public class Solution extends ActionBarActivity {

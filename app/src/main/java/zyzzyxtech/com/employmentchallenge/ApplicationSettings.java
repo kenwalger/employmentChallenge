@@ -1,10 +1,10 @@
-package zyzzyxtech.com.trellochallenge;
+package zyzzyxtech.com.employmentchallenge;
 
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.preference.PreferenceManager;
 
-import zyzzyxtech.com.trellochallenge.utils.StorageType;
+import zyzzyxtech.com.employmentchallenge.utils.StorageType;
 
 /**
  * Created by Ken on 1/13/2015.

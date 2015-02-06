@@ -1,4 +1,4 @@
-package zyzzyxtech.com.trellochallenge.ui;
+package zyzzyxtech.com.employmentchallenge.ui;
 
 import android.content.ComponentName;
 import android.content.Intent;
@@ -8,7 +8,7 @@ import android.support.v7.app.ActionBarActivity;
 import android.view.View;
 import android.widget.Button;
 
-import zyzzyxtech.com.trellochallenge.R;
+import zyzzyxtech.com.employmentchallenge.R;
 
 public class ContactActivity extends ActionBarActivity {
     

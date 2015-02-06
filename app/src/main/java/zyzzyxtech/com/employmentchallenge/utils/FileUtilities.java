@@ -1,19 +1,16 @@
-package zyzzyxtech.com.trellochallenge.utils;
+package zyzzyxtech.com.employmentchallenge.utils;
 
-import android.app.Activity;
 import android.content.Context;
 import android.content.res.AssetManager;
 import android.os.Environment;
-import android.widget.Toast;
 
 import java.io.File;
-import java.io.FileFilter;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 
-import zyzzyxtech.com.trellochallenge.ApplicationSettings;
+import zyzzyxtech.com.employmentchallenge.ApplicationSettings;
 
 /**
  * Created by Ken on 1/13/2015.

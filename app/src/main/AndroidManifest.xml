@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="zyzzyxtech.com.trellochallenge" >
+    package="zyzzyxtech.com.employmentchallenge" >
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -11,12 +11,12 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="zyzzyxtech.com.trellochallenge.ui.MainActivity"
+            android:name="zyzzyxtech.com.employmentchallenge.ui.MainActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait" >
         </activity>
         <activity
-            android:name="zyzzyxtech.com.trellochallenge.ui.SplashActivity"
+            android:name="zyzzyxtech.com.employmentchallenge.ui.SplashActivity"
             android:label="@string/title_activity_splash"
             android:screenOrientation="portrait" >
             <intent-filter>
@@ -26,22 +26,22 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".ui.Solution"
+            android:name="zyzzyxtech.com.employmentchallenge.ui.Solution"
             android:label="@string/title_activity_solution"
-            android:parentActivityName="zyzzyxtech.com.trellochallenge.ui.MainActivity"
+            android:parentActivityName="zyzzyxtech.com.employmentchallenge.ui.MainActivity"
             android:screenOrientation="portrait" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="zyzzyxtech.com.trellochallenge.ui.MainActivity" />
+                android:value="zyzzyxtech.com.employmentchallenge.ui.MainActivity" />
         </activity>
         <activity
-            android:name=".ui.ContactActivity"
+            android:name="zyzzyxtech.com.employmentchallenge.ui.ContactActivity"
             android:label="@string/title_activity_contact"
-            android:parentActivityName=".ui.Solution"
+            android:parentActivityName="zyzzyxtech.com.employmentchallenge.ui.Solution"
             android:screenOrientation="portrait">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".ui.Solution" />
+                android:value="zyzzyxtech.com.employmentchallenge.ui.Solution" />
         </activity>
     </application>
 

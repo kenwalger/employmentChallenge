@@ -1,12 +1,12 @@
-package zyzzyxtech.com.trellochallenge.ui;
+package zyzzyxtech.com.employmentchallenge.ui;
 
 import android.content.Intent;
 import android.os.Handler;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 
-import zyzzyxtech.com.trellochallenge.ConstantValues;
-import zyzzyxtech.com.trellochallenge.R;
+import zyzzyxtech.com.employmentchallenge.ConstantValues;
+import zyzzyxtech.com.employmentchallenge.R;
 
 
 public class SplashActivity extends ActionBarActivity {

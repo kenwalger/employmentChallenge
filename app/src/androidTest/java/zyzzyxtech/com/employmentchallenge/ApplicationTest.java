@@ -1,4 +1,4 @@
-package zyzzyxtech.com.trellochallenge;
+package zyzzyxtech.com.employmentchallenge;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;
